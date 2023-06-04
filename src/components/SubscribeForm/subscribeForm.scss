@@ -1,0 +1,40 @@
+.subscribe-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+
+  &__container {
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    display: flex;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__input {
+    width: 100%;
+    height: 56px;
+    border: 2px solid black;
+    padding: 10px;
+    color: black;
+  }
+
+  &__button {
+    padding: 24px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 18px;
+  }
+}

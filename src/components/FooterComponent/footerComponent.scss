@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  gap: 36px;
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__contacts {
+    font-size: 16px;
+  }
+
+  &__copyright {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+}
